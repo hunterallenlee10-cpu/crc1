@@ -1,0 +1,105 @@
+---
+{
+  "out": "contact.html",
+  "path": "contact",
+  "nav": "contact",
+  "bodyClass": "page-contact",
+  "og": "work-cape-porch",
+  "title": "Contact | Free Estimates from Castle Road Construction, Bel Air MD",
+  "description": "Call 410-836-5515 or send a message for a free consultation. Castle Road Construction, 2005 E Churchville Road, Bel Air, MD 21015."
+}
+---
+<section class="page-hero" aria-labelledby="page-title">
+  <div class="container">
+    <div class="page-hero-grid">
+      <div>
+        <p class="eyebrow" data-hero-in style="--d:0">Contact</p>
+        <h1 class="page-title" id="page-title" data-hero-in style="--d:1">Get a free estimate.</h1>
+      </div>
+      <p class="lede" data-hero-in style="--d:2">Please write to us or give us a call. We're always happy to provide a free consultation and help with any questions you have.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:clamp(3rem,6vw,5rem)" aria-label="Contact form and details">
+  <div class="container contact-grid">
+    <form class="form card-form" name="contact" method="POST" action="contact.html" data-netlify="true" netlify-honeypot="bot-field" data-form novalidate data-reveal>
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <h2 class="h3">Get in touch!</h2>
+      <div class="form-row">
+        <div class="field">
+          <label for="c-first">First name</label>
+          <input id="c-first" name="first-name" type="text" autocomplete="given-name" required>
+          <p class="field-error" id="c-first-err">Please enter your first name.</p>
+        </div>
+        <div class="field">
+          <label for="c-last">Last name</label>
+          <input id="c-last" name="last-name" type="text" autocomplete="family-name" required>
+          <p class="field-error" id="c-last-err">Please enter your last name.</p>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="c-email">Email</label>
+          <input id="c-email" name="email" type="email" autocomplete="email" required>
+          <p class="field-error" id="c-email-err">Please enter a valid email address.</p>
+        </div>
+        <div class="field">
+          <label for="c-phone">Phone <span class="optional">(optional)</span></label>
+          <input id="c-phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+      </div>
+      <div class="field">
+        <label for="c-subject">Subject</label>
+        <div class="select-wrap">
+          <select id="c-subject" name="subject">
+            <option>Free estimate: roofing</option>
+            <option>Free estimate: windows &amp; doors</option>
+            <option>Free estimate: siding</option>
+            <option>Free estimate: trim &amp; gutters</option>
+            <option>Free estimate: decks &amp; porches</option>
+            <option>Free estimate: kitchen or bath</option>
+            <option>Free estimate: basement</option>
+            <option>Storm damage / insurance claim</option>
+            <option>General question</option>
+          </select>
+          [[icon caret-down]]
+        </div>
+      </div>
+      <div class="field">
+        <label for="c-msg">Message</label>
+        <textarea id="c-msg" name="message" rows="5" required></textarea>
+        <p class="field-error" id="c-msg-err">Please tell us a little about your project.</p>
+      </div>
+      <button class="btn btn--accent btn--lg btn--block" type="submit">Submit [[icon arrow-right]]</button>
+      <p class="form-status" role="status" data-form-status></p>
+    </form>
+
+    <aside class="contact-info" aria-label="Contact details">
+      <div class="info-block" data-reveal>
+        <h2>Call us</h2>
+        <a class="info-phone" href="[[phone_href]]">[[icon phone]] [[phone]]</a>
+      </div>
+      <div class="info-block" data-reveal>
+        <h2>Visit</h2>
+        <address>2005 E Churchville Road<br>Bel Air, MD 21015</address>
+        <a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&amp;destination=2005+E+Churchville+Road+Bel+Air+MD+21015" target="_blank" rel="noopener">Get directions [[icon arrow-up-right]]</a>
+      </div>
+      <div class="info-block" data-reveal>
+        <h2>Good to know</h2>
+        <ul class="info-list">
+          <li>[[icon check-circle]]Free, no-obligation estimates</li>
+          <li>[[icon shield-check]]Licensed &amp; insured, MHIC #121766</li>
+          <li>[[icon umbrella-simple]]We work with insurance on storm claims</li>
+          <li>[[icon map-pin]]Harford County and all of Maryland</li>
+        </ul>
+      </div>
+      <div class="frame frame--wide" data-reveal>[[img work-colonial-metal-porch | Gray colonial home with a new standing-seam metal porch roof | (min-width: 900px) 38vw, 100vw]]</div>
+    </aside>
+  </div>
+</section>
+
+<section aria-label="Map">
+  <iframe class="map" title="Map to Castle Road Construction, 2005 E Churchville Road, Bel Air, MD" src="https://www.google.com/maps?q=2005+E+Churchville+Road,+Bel+Air,+MD+21015&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
