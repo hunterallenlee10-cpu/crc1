@@ -275,6 +275,7 @@ def footer():
     <div class="footer-bottom">
       <p>&copy; <span data-year>2026</span> Castle Road Construction. Licensed and insured. MHIC #{SITE['mhic']}.</p>
       <p>Serving Harford County and all of Maryland since 1992.</p>
+      <p class="footer-credit" style="flex-basis:100%">Website by <a href="https://www.leeenterprisesunlimited.com/" target="_blank" rel="noopener">Lee Enterprises Unlimited</a></p>
     </div>
   </div>
 </footer>"""
